@@ -26,7 +26,7 @@
             >;
         };
 
-        layer_1 {
+        layer_none {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans
@@ -46,10 +46,10 @@
 
         mouse-2 {
             bindings = <
-&kp ESC         &mt END HOME    &kp GLOBE      &kp C   &kp LG(LC(A))                                      &mt END HOME           &kp RS(LEFT)  &kp RS(UP)    &kp RS(RIGHT)   &kp RC(RG(A))
-&kp LS(LG(N2))  &kp LS(LG(N1))  &kp LS(LG(X))  &trans  &kp LC(LEFT)                                       &kp RC(RIGHT_COMMAND)  &kp UP        &kp RS(DOWN)  &mkp MB3        &kp RC(LEFT)
-&kp LS(LG(V))   &kp LS(LG(N4))  &kp LS(LG(F))  &trans  &trans         &trans                      &trans  &kp LEFT               &kp DOWN      &kp RIGHT     &msc SCRL_DOWN  &msc SCRL_UP
-&trans          &trans          &trans                                &mkp MB2  &mkp MB1  &trans  &trans                                       &trans        &trans          &trans
+&kp ESC         &mt END HOME    &kp GLOBE      &kp C  &kp LG(LC(A))                                      &mt END HOME           &kp RS(LEFT)  &kp RS(UP)    &kp RS(RIGHT)   &kp RG(RC(A))
+&kp LS(LG(N2))  &kp LS(LG(N1))  &kp LS(LG(X))  &none  &kp LG(LEFT)                                       &kp RC(RIGHT_COMMAND)  &kp UP        &kp RS(DOWN)  &mkp MB3        &kp RG(LEFT)
+&kp LS(LG(V))   &kp LS(LG(N4))  &kp LS(LG(F))  &none  &trans         &trans                      &trans  &kp LEFT               &kp DOWN      &kp RIGHT     &msc SCRL_DOWN  &msc SCRL_UP
+&trans          &trans          &trans                               &mkp MB2  &mkp MB1  &trans  &trans                                       &trans        &trans          &trans
             >;
         };
 
