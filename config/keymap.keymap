@@ -15,6 +15,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        mouse-Layer {
+            bindings = <&tog 2>;
+            key-positions = <28 29>;
+        };
+
+        mouse-button2 {
+            bindings = <&mkp MB2>;
+            key-positions = <27 28>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -40,8 +54,8 @@
             bindings = <
 &kp ESCAPE            &mt END HOME          &kp GLOBE      &kp C  &kp LG(LC(A))                                      &mt RG(RA(DOWN)) RA(RG(UP))  &mkp MB4      &mkp MB5       &mkp MB1        &mkp MB2
 &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_1))  &kp LS(LG(X))  &none  &kp LG(LEFT)                                       &kp RS(RC(TAB))              &kp RC(TAB)   &mkp MB3       &msc SCRL_LEFT  &msc SCRL_RIGHT
-&kp LS(LG(V))         &kp LS(LG(NUMBER_4))  &kp LS(LG(F))  &none  &trans         &trans                      &trans  &none                        &kp RC(LEFT)  &kp RC(RIGHT)  &msc SCRL_DOWN  &msc SCRL_UP
-&trans                &trans                &trans                               &mkp MB2  &mkp MB1  &trans  &trans                                             &trans         &trans          &trans
+&kp LS(LG(V))         &kp LS(LG(NUMBER_4))  &kp LS(LG(F))  &none  &trans         &mkp MB3                    &trans  &mkp MB1                     &kp RC(LEFT)  &kp RC(RIGHT)  &msc SCRL_DOWN  &msc SCRL_UP
+&trans                &mkp MB4              &mkp MB5                             &mkp MB2  &mkp MB1  &trans  &trans                                             &trans         &trans          &trans
             >;
         };
 
