@@ -13,6 +13,17 @@
             #binding-cells = <2>;
             tapping-term-ms = <190>;
         };
+
+        mouse_scroll: mouse_scroll {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MOUSE_SCROLL";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "balanced";
+            hold-while-undecided;
+            tapping-term-ms = <200>;
+        };
     };
 
     combos {
@@ -46,7 +57,7 @@
             bindings = <
 &kp W             &kp E                   &kp LEFT_PARENTHESIS  &kp I  &kp RIGHT_PARENTHESIS                                                                      &kp F  &kp S  &kp Y                &kp H                  &kp P
 &kp A             &kp U                   &kp X                 &kp C  &kp O                                                                                      &kp R  &kp K  &kp T                &kp D                  &lt 1 N
-&kp Q             &mt AMPERSAND QUESTION  &kp J                 &kp V  &lt 3 COMMA            &mt LEFT_SHIFT PERIOD                                &kp BACKSPACE  &kp Z  &kp G  &kp B                &kp L                  &kp M
+&kp Q             &mt AMPERSAND QUESTION  &kp J                 &kp V  &lt 3 COMMA            &mt LEFT_SHIFT PERIOD                                &kp BACKSPACE  &kp Z  &kp G  &kp B                &kp L                  &mouse_scroll 2 M
 &lt 5 LANGUAGE_2  &kp LG(Z)               &kp LS(LG(Z))                                       &kp SPACE              &mkp MB1  &mouse_layer 4 MB1  &lt 2 ENTER                  &mt RIGHT_ALT MINUS  &mt RIGHT_CONTROL TAB  &mt RIGHT_COMMAND LANGUAGE_1
             >;
         };
