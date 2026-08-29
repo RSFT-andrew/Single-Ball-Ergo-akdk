@@ -92,3 +92,14 @@
     };
 };
 
+/ {
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+
+        scroll {
+            layers = <1>; /* mouse-1 レイヤーでスクロール */
+            input-processors = <&zip_xy_to_scroll_mapper>;
+        };
+    };
+};
