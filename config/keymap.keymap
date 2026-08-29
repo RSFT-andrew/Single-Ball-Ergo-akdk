@@ -60,10 +60,10 @@
 
         mouse-2 {
             bindings = <
-&kp ESC         &mt END HOME    &kp GLOBE      &kp C      &kp LG(LC(A))                                      &mt PAGE_DOWN PAGE_UP  &kp RS(LEFT)  &kp RS(UP)      &kp RS(RIGHT)    &kp RG(RC(A))
-&kp LS(LG(N2))  &kp LS(LG(N1))  &kp LS(LG(X))  &kp C      &kp LG(LEFT)                                       &kp RC(RIGHT_COMMAND)  &kp UP        &kp RS(DOWN)    &msc SCRL_RIGHT  &kp RG(LEFT)
-&kp LS(LG(V))   &kp LS(LG(N4))  &kp LS(LG(F))  &kp GLOBE  &trans         &mkp MB3                    &trans  &kp LEFT               &kp DOWN      &kp RIGHT       &msc SCRL_LEFT   &none
-&trans          &mkp MB4        &mkp MB5                                 &mkp MB2  &mkp MB1  &trans  &trans                                       &msc SCRL_DOWN  &msc SCRL_UP     &trans
+&kp ESC         &mt END HOME    &kp GLOBE      &kp C           &kp LG(LC(A))                                      &mt PAGE_DOWN PAGE_UP  &kp RS(LEFT)  &kp RS(UP)      &kp RS(RIGHT)    &kp RG(RC(A))
+&kp LS(LG(N2))  &kp LS(LG(N1))  &kp LS(LG(X))  &msc SCRL_UP    &kp LG(LEFT)                                       &kp RC(RIGHT_COMMAND)  &kp UP        &kp RS(DOWN)    &msc SCRL_RIGHT  &kp RG(LEFT)
+&kp LS(LG(V))   &kp LS(LG(N4))  &kp LS(LG(F))  &msc SCRL_DOWN  &trans         &mkp MB3                    &trans  &kp LEFT               &kp DOWN      &kp RIGHT       &msc SCRL_LEFT   &none
+&trans          &mkp MB4        &mkp MB5                                      &mkp MB2  &mkp MB1  &trans  &trans                                       &msc SCRL_DOWN  &msc SCRL_UP     &trans
             >;
         };
 
