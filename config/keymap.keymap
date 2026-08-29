@@ -4,15 +4,6 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <trackball>;
-
-        scroll {
-            layers = <1>;
-            input-processors = <&zip_xy_to_scroll_mapper>;
-        };
-    };
 
     behaviors {
         mouse_layer: mouse_layer {
