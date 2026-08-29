@@ -6,7 +6,7 @@
 / {
     trackball_listener {
         compatible = "zmk,input-listener";
-        device = <&trackball>;
+        device = <trackball>;
 
         scroll {
             layers = <1>;
