@@ -99,7 +99,9 @@
 
         scroll {
             layers = <1>; /* mouse-1 レイヤーでスクロール */
-            input-processors = <&zip_xy_to_scroll_mapper>;
+            input-processors 
+　　             = <&zip_xy_to_scroll_mapper>;
+                , <&zip_scroll_scaler 1 16>; 
         };
     };
 };
