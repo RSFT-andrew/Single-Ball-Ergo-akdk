@@ -62,7 +62,7 @@
             bindings = <
 &kp ESCAPE            &mt HOME END          &kp GLOBE      &kp C           &kp LG(LC(A))                                      &mt HOME PAGE_UP   &mkp MB4                  &trans                 &mkp MB5              &kp RG(RC(A))
 &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_1))  &kp LS(LG(X))  &msc SCRL_UP    &kp LG(LEFT)                                       &mt END PAGE_DOWN  &mkp MB1                  &mkp MB2               &mkp MB3              &trans
-&kp LS(LG(V))         &kp LS(LG(NUMBER_4))  &kp LS(LG(F))  &msc SCRL_DOWN  &trans         &mkp MB3                    &trans  &trans             &mt RC(LEFT) RS(RC(TAB))  &mt RC(RIGHT) RC(TAB)  &kp RS(RG(NUMBER_4))  &kp RS(RG(V))
+&kp LS(LG(V))         &kp LS(LG(NUMBER_4))  &kp LS(LG(F))  &msc SCRL_DOWN  &trans         &trans                      &trans  &trans             &mt RC(LEFT) RS(RC(TAB))  &mt RC(RIGHT) RC(TAB)  &kp RS(RG(NUMBER_4))  &kp RS(RG(V))
 &trans                &mkp MB4              &mkp MB5                                      &mkp MB2  &mkp MB1  &trans  &trans                                               &kp RS(RG(NUMBER_1))   &kp RS(RG(NUMBER_2))  &trans
             >;
         };
